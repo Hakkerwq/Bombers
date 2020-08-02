@@ -8,14 +8,14 @@ print ("\033[1;31m|##|_____   |##|      |##|   /##/    \##\    __|##|__   |##|__
 print ("\033[1;31m|########|  |##|      |##|  /##/      \##\  |########|  |##########| _|__| |__| |  | _|__| |__  |  \    \033[1;m")
 
 try:
-    bomb_email = input("Enter Email address on Whom you want to perfom this attack: ")
+    bomb_email = input("akashmathew916@gmail.com ")
     email = input("Enter your gmail_address:")
     password = input("Enter your gmail_password:")
-    message = input("Enter Message:")
+    message = input("are you happy:")
     counter = int(input("How many message you want to send?:"))
 
     for x in range(0,counter):
-        print("Number of Message Sent : ", x+1)
+        print("25 : ", x+1)
         mail = smtplib.SMTP('smtp.gmail.com',587)
         mail.ehlo()
         mail.starttls()
